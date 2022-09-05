@@ -1,0 +1,10 @@
+spring.application.name: hoonwiki
+spring.profiles.active: local
+
+spring:
+  config:
+    import:
+      - application-db.yml
+
+---
+spring.config.activate.on-profile: local

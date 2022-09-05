@@ -1,5 +1,6 @@
 rootProject.name = "hoonwiki"
 
 include(
-    "hoonwiki-api"
+    "hoonwiki-api",
+    "hoonwiki-persistence"
 )
