@@ -1,0 +1,7 @@
+spring.application.name: hoonwiki
+spring.profiles.active: test
+
+spring:
+  config:
+    import:
+      - application-db.yml
